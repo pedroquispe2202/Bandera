@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: blue;
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+}
+
+.primero {
+  width: 150px;
+  height: 130px;
+  background: white;
+}
+
+.primero_caja1 {
+  width: 130px;
+  height: 110px;
+  background: red;
+}
+
+.segundo {
+  width: 310px;
+  height: 130px;
+  background: white;
+}
+
+.primero_caja2 {
+  float: right;
+  width: 290px;
+  height: 110px;
+  background: red;
+}
+
+.tercero {
+  width: 150px;
+  height: 130px;
+  background: white;
+  align-self: flex-end;
+}
+
+.primero_caja3 {
+  width: 130px;
+  height: 110px;
+  background: red;
+}
+
+.cuarto {
+  width: 310px;
+  height: 130px;
+  background: white;
+  align-self: flex-end;
+}
+
+.primero_caja4 {
+  float: right;
+  width: 290px;
+  height: 110px;
+  background: red;
+}
